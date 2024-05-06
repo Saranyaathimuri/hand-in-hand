@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container_Navbar{
+    background-color: rgba(14, 1, 1, 0.158);
+    display: flex;
+    height: 70.5px;
+    padding-left: 1rem;
+}
+/* @media (max-width:768px) {
+    .container_Navbar{
+    background-color: rgba(14, 1, 1, 0.158);
+    display: flex;
+    height: 50px;
+    padding-left: 0.3rem;
+    }
+} */
+.logo_Navbar{
+    display: flex;
+    width: 60px;
+    height: 56px;
+    padding-left: 0.3rem; 
+    padding-top: 0.6rem;
+}
+/* @media (max-width:768px) {
+    .logo_Navbar{
+    display: flex;
+    width: 60px;
+    height: 56px;
+    padding-left: 0.7rem; 
+    padding-top: 0.5rem;
+    }
+} */
+.logo{
+    width: 60px;
+    height: 60px;
+-webkit-animation:spin 4s linear infinite;
+-moz-animation:spin 4s linear infinite;
+animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+100% { 
+    -webkit-transform: rotate(360deg); 
+    transform:rotate(360deg); 
+} 
+}
+/* @media (max-width:768px){
+    .logo{
+        width:37px;
+        height:40px;
+    }
+} */
+.title{
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-top: 0.3rem;
+}
+/* @media (max-width:768px){
+   .title{
+    display: flex;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    padding-top: 1rem;
+   }
+} */
+.right_btn{
+    padding-left: 40.9rem;
+    padding-top: 1.2rem;
+
+}
+/* @media (max-width:768px) {
+    .right_btn{
+        padding-left: 6rem;
+        padding-top: 1rem;
+    }
+} */
+.home_shortcut{
+   
+    display: flex;
+    padding: 0.7rem;
+    justify-content: space-between;
+    border-radius: 10rem;
+    border: rgb(7, 66, 105);
+    background-color:rgba(14, 1, 1, 0) ;
+    color: rgb(28, 12, 250);
+    font-weight: bold;
+    text-decoration: none;
+}
+/* 
+@media (max-width:768px) {
+    .home_shortcut{
+    display: flex;
+    padding: 0.2rem;
+    font-size: 12px;
+    border-radius: 2rem;
+    border: rgb(7, 66, 105);
+    background-color:rgba(14, 1, 1, 0) ;
+    color: rgb(28, 12, 250);
+    font-weight: bold;
+    }
+} */
+.home_shortcut:hover{
+    background-color: rgb(6, 252, 6);
+}

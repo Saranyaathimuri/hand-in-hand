@@ -1,0 +1,45 @@
+/*body{
+    margin: 0;
+    padding: 0;
+    background:purple;
+}*/
+.carousel{
+    height: 1000px;
+    perspective: 250px;
+}
+.carousel .carousel-item{
+    width:500px;
+    background: pink;
+    padding: 0px;
+    height: auto;
+    text-align: center;
+    border-radius: 1px;
+}
+.img-area{
+    width:100px;
+    height: 100px;
+    margin: 2px auto;
+    overflow: hidden;
+    border-radius: 30%;
+    border: inset 8px blueviolet;
+}
+.img-area img{
+    width: 100%;
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #F8AFA6;
+}
+.btn::after{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 2px;
+    overflow: hidden;
+    transition: width 200px,margin-left 200px;
+}
+.btn:is(:hover,:focus)::after{
+    width: 24px;
+}

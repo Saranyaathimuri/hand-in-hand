@@ -1,0 +1,306 @@
+
+
+.footer{
+    background-color: rgb(10, 10, 10);
+    height: 23rem;
+}
+.dis{
+    display: flex;
+}
+@media (max-width:768px){
+    .footer{
+        height: 30rem;
+    }
+}
+.footer_bg{
+    padding: 2rem;
+    padding-left: 10.5rem;
+    display: flex;
+}
+@media (max-width:768px){
+    .footer_bg{
+        padding: 1rem;
+        padding-left: 1rem;
+        display: flex; 
+    }
+}
+.about_logo{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background-image: url("logo.png");
+    background-size: cover;
+}
+@media (max-width:768px){
+    .about_logo{
+        display: flex;
+        width: 30px;
+        height: 30px;
+        background-image: url("logo.png");
+        background-size: cover;    
+    }
+}
+.title_footer{
+    display: flex;
+    position: relative;
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+    font-size: 20px;
+}
+.query{
+    margin-top: 0.6rem;
+    padding-left: 10rem;
+    position: relative;
+    color: whitesmoke;
+}
+@media (max-width:768px){
+    .query{
+        padding-left: 2rem;
+        position: relative;
+        color: whitesmoke;   
+    }
+}
+.contact{
+    padding-left: 3.6rem;
+    display: flex;
+}
+.about_line{
+    padding-left: 10rem;
+    color: white;
+    border: 1px whitesmoke;
+    font-weight: bold;
+    font-size: 25px;
+}
+@media (max-width:768px){
+    .about_line{
+        padding-left: 2rem;
+        color: white;
+        border: 1px whitesmoke;
+        font-weight: bold;
+        font-size: 10px;   
+    }
+}
+.social{
+    padding-left: 10rem;
+}
+.social_link{
+   
+    margin-top: 2.2rem;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white ;
+}
+@media (max-width:768px){
+    .social_link{
+        font-size: 18px;  
+    }
+}
+.socail{
+    display: inline;
+    position: relative;
+}
+.instagram{
+    display: flex;
+    position: relative;
+    width:30px;
+    height:30px;
+    padding-left: 0.3rem;
+    border-radius: 40%;
+    background-image: url("instagram.svg");
+    background-repeat: no-repeat;
+    background-position-x:2px ;   
+}
+@media (max-width:768px){
+    .instagram{
+        width:20px;
+        height:20px;
+        padding-left: 0.02rem;
+    }
+}
+.instagram:hover{
+    background-color: rgb(243, 16, 16);
+}
+.instagram_po{
+    color:white;
+    display: flex;
+    padding-top: 0.3rem;
+    padding-left:1.9rem;
+}
+@media (max-width:768px){
+    .instagram_po{
+        padding-top: 0.01rem;
+        padding-left:1.5rem;
+        font-size: 13px;
+        font-weight: 350;    
+    }
+}
+.instagram_po:hover{
+    color: blue;
+}
+.facebook{
+    display: flex;
+    position: relative;
+    width:30px;
+    height:30px;
+    padding-left: 0.3rem;
+    border-radius: 40%;
+    background-image: url("facebook.svg");
+    background-repeat: no-repeat;
+    background-position-x:0px ; 
+}
+@media (max-width:768px){
+    .facebook{
+        width:20px;
+        height:20px;
+        padding-left: 0.01rem;  
+    }
+}
+.facebook:hover{
+    background-color: rgb(73, 7, 253);
+}
+.facebook_po{
+    color:white;
+    display: flex;
+    padding-top: 0.3rem;
+    padding-left:1.9rem;
+}
+@media (max-width:768px){
+    .facebook_po{
+        padding-top: 0.01rem;
+        padding-left:1.6rem;  
+        font-size: 13px;
+        font-weight: 350;    
+    }
+}
+.facebook_po:hover{
+    color: blue;
+}
+.whatsapp{
+    display: flex;
+    position: relative;
+    width:30px;
+    height:30px;
+    padding-left: 0.3rem;
+    border-radius: 40%;
+    background-image: url("whatsapp.svg");
+    background-repeat: no-repeat;
+    background-position-x:2px ; 
+}
+@media (max-width:768px){
+    .whatsapp{
+        width:20px;
+        height:20px;
+        padding-left: 0.01rem;    
+    }
+}
+.whatsapp:hover{
+    background-color: rgb(5, 172, 27);
+}
+
+.whatsapp_po{
+    color:white;
+    display: flex;
+    padding-top: 0.3rem;
+    padding-left:1.9rem;
+}
+@media (max-width:768px){
+    .whatsapp_po{
+        padding-top: 0.01rem;
+        padding-left:1.6rem; 
+        font-size: 13px;
+        font-weight: 350;    
+    }
+}
+.whatsapp_po:hover{
+    color: blue;
+}
+@media (max-width:768px){}
+.youtube{
+    display: flex;
+    position: relative;
+    width:30px;
+    height:30px;
+    padding-left: 0.3rem;
+    border-radius: 40%;
+    background-image: url("youtube.svg");
+    background-repeat: no-repeat;
+    background-position-x:0px ; 
+}
+@media (max-width:768px){
+    .youtube{
+        width:20px;
+        height:20px;
+        padding-left: 0.01rem;   
+    }
+}
+.youtube:hover{
+    background-color: rgb(235, 36, 36);
+}
+.youtube_po{
+    color:white;
+    display: flex;
+    padding-top: 0.3rem;
+    padding-left:1.9rem;
+}
+@media (max-width:768px){
+    .youtube_po{
+        padding-top: 0.01rem;
+        padding-left:1.6rem;
+        font-size: 13px;   
+        font-weight: 350;  
+    }
+}
+.youtube_po:hover{
+    color: blue;
+}
+.twitter{
+    display: flex;
+    position: relative;
+    width:30px;
+    height:30px;
+    padding-left: 0.3rem;
+    border-radius: 40%;
+    background-image: url("twitter.svg");
+    background-repeat: no-repeat;
+    background-position-x:2px ; 
+}
+@media (max-width:768px){
+    .twitter{
+    width:20px;
+    height:20px;
+    padding-left: 0.01rem;
+    }
+}
+.twitter:hover{
+    background-color: rgb(27, 17, 167);
+}
+.twitter_po{
+    color:white;
+    display: flex;
+    padding-top: 0.3rem;
+    padding-left:1.9rem;
+}
+@media (max-width:768px){
+    .twitter_po{
+        padding-top: 0.01rem;
+        padding-left:1.6rem;  
+        font-size: 13px;
+        font-weight: 350;   
+    }
+}
+.twitter_po:hover{
+    color: blue;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(170, 167, 167);
+}
+@media (max-width:768px){
+    .copyright{
+        font-size: 13px;
+    }
+}

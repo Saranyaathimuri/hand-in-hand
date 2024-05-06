@@ -1,0 +1,29 @@
+.m{
+    background-image: radial-gradient( circle 400px at 6.8% 8.3%,  rgba(255,244,169,1) 0%, rgba(255,244,234,1) 100.2% );
+}
+/* h1{
+    margin: auto;
+    margin-top: 0.7rem;
+} */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #df040f;
+}
+
+tr:nth-child(even) {
+    background-color: #fefeff;
+}
+tr:hover{
+    background-color: rgb(189, 169, 172);
+}

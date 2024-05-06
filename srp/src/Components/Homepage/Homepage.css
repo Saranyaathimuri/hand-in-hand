@@ -1,0 +1,166 @@
+   *{
+        margin: 0;
+        padding: 0;
+    }
+    .container_homepage{
+      background-color: black;
+      display: flex;
+  }
+    .background-img { 
+        opacity: 0.4;
+        width: 81.92rem;
+        height: 42rem;
+        background-size: cover;  
+        background-image: url("home_bg.jpg");  
+        display: flex;
+        background-color:rgba(0,0,0,0);
+        border-radius: 0;
+    } 
+    @media (max-width:768px){
+      .background-img{
+        opacity: 0.4;
+        width: 27.6rem;
+        height: 21rem;
+        background-size: cover;  
+        background-image: url("home_bg.jpg");  
+        display: flex;
+        background-color: rgba(0,0,0,0);
+      }
+    }
+  .quote{
+    background: none; 
+    display: flex;
+    color: #ffffff;
+   padding-top: 10rem;
+   padding-left: 3rem;
+    align-items: start;
+  }
+  @media (max-width:768px){
+    .quote{
+      display: flex;
+      color: white;
+      padding-top: 2rem;
+      padding-left: 2rem;
+      align-items: start;
+    }
+  }
+  .quote:hover{
+    cursor:pointer;
+  } .Auth-form-container {
+    padding: 5rem 5rem 10.2rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+   
+    transition: background 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .Auth-form-container {
+      padding: 0.1rem 0.2rem 20rem;
+    }
+  }
+  
+  .Auth-form {
+    width: 420px;
+    padding: 30px 0 20px;
+    border-radius: 8px;
+   
+    transition: background 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .Auth-form {
+      width: 200px;
+      padding: 10px 0 18px;
+    }
+  }
+  
+  .Auth-form:hover {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(247,87,0,1) 0%, rgba(249,0,0,1) 90.1% );  
+  
+  }
+  
+  .Auth-form-content {
+    padding: 0 12%;
+  }
+  
+  @media (max-width: 768px) {
+    .Auth-form-content {
+      padding: 0 6%;
+    }
+  }
+  
+  .Auth-form-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 800;
+  }
+  
+  /* @media (max-width: 768px) {
+    .Auth-form-title {
+      margin-bottom: 0.3em;
+      font-size: 20px;
+      font-weight: 700;
+    }
+  } */
+  
+  label {
+    font-size: 12px;
+    font-weight: 600;
+    color:#2c3e50;
+  }
+  
+  .text-center {
+    color: #fff;
+  }
+  
+  /* Add animation to the gradient background */
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  
+  /* Apply gradient animation to the container */
+  .Auth-form-container:hover,
+  .Auth-form-container:focus {
+    animation: gradientAnimation 3s infinite alternate;
+  }
+  
+  /* Add fade-in animation to the form */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply fade-in animation to the form */
+  .Auth-form {
+    animation: fadeIn 1s ease-in-out;
+  }
+  .button {
+    color: #ffffff; /* Dark Navy or Charcoal Gray */
+    background-color: #4747d8; /* Light Gray or any other background color */
+    border: 1px solid #4747d8; /* Border color to match the text color */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #4747d8; /* Dark Navy or Charcoal Gray on hover */
+    color: #ffffff; /* Light Gray or any other text color on hover */
+    border-color: #4747d8; /* Border color on hover */
+  }
+  

@@ -1,0 +1,263 @@
+.body{
+    display: flex;
+    background-image: linear-gradient( 68.2deg,  rgba(255,202,88,1) 0%, rgba(139,73,255,1) 100.2% ) !important;
+}
+.card {
+ margin: auto;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+ width: 300px;
+ height: 400px;
+ position: relative;
+ perspective: 1000px;
+}
+.text-card{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+}
+.a-btn{
+        color: white;
+        text-align: center;
+        padding-top: 5px;
+        margin: auto;
+        text-decoration: none;
+        width: 100px !important;
+        height: 40px !important;
+        border-radius: 10px;
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+
+}
+.card-body{
+    height: 50px !important;
+}
+
+
+
+
+/* @import url("https://fonts.google.com/specimen/Montserrat"); */
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+/* html{
+    box-sizing: border-box;
+    font-size: 62.5%
+}
+  body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 50px;
+}
+a{
+    text-decoration: none;
+}
+.grid{
+    display: grid;
+    width: 150em;
+    grid-gap:1rem;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    align-items: start;
+}
+.grid-item{
+    background: #FFAEBC; 
+    border-radius: 0.4rem;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: 0.2s;
+    width: 90%;
+    height: 400px;
+
+}
+.grid-item:hover{
+    transform: translateY(-0.5%);
+    box-shadow: 0 4rem 8rem rgba(0,0,0,0.5);
+    
+}
+.main{
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    perspective: 1000px;
+    
+/* }
+.card-img{
+ 
+    width:75%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius:10px;
+    margin: 20px 25px;
+    border: 2px solid whitesmoke;
+
+}
+.card-content{
+    padding: 3rem;
+}
+.card-header{
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+    margin:none;
+}
+.card-text{
+    font-size: 1.6rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color: grey;
+    margin-bottom: 2.5rem;
+
+}
+.card-btn{
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: black;
+    background-color: azure;
+    border:none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+.card-btn span{
+    margin-left: 1rem;
+    transition: 0.2s;
+}
+.card-btn:hover,.card-btn:active{
+    background-color: antiquewhite;
+}
+.card-btn:hover span,.card-btn:active span{
+    margin-left: 1.5rem;
+}
+@media only screen and (max-width:60em){
+    body{
+        padding: 3rem;
+    }
+    .grid{
+        grid-gap:3rem;
+    }
+}
+
+.carousel{
+    height: 1000px;
+    perspective: 250px;
+}
+.carousel .carousel-item{
+    width:500px;
+    background: pink;
+    padding: 0px;
+    height: auto;
+    text-align: center;
+    border-radius: 1px;
+}
+.img-area{
+    width:100px;
+    height: 100px;
+    margin: 2px auto;
+    overflow: hidden;
+    border-radius: 30%;
+    border: inset 8px blueviolet;
+}
+.img-area img{
+    width: 100%;
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #F8AFA6;
+}
+.btn::after{
+    content: "";
+    display: block;
+    width: 4px;
+    height: 2px;
+    overflow: hidden;
+    transition: width 200px,margin-left 200px;
+}
+.btn:is(:hover,:focus)::after{
+    width: 24px;
+} */
+
+
+/* .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .grid-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card {
+    margin: auto;
+    width: 500px;
+    height: max-content;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+
+  .card-content {
+    padding: 15px;
+  }
+  
+  
+  .card-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .card-btn:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .card-btn span {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-btn:hover span {
+    transform: translateX(5px);
+  }
+  
+
+  h1, p {
+    margin: 0;
+  }
+   */
+ 
+  

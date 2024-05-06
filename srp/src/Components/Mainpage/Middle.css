@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .p{
+    text-align: center;
+    width: auto;
+  }
+  .p1{
+    text-align: center;
+    width: auto;
+  }
+    .img-fluid{
+      align-items: center;
+      justify-content: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width:55%;
+      
+  }
+  .ind_bg{
+      align-items: center;
+      justify-content: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width:50%;
+  
+  }
+  .ind{
+      align-items: center;
+      justify-content: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width:50%;
+      height: 50%;
+  
+  }
+  .img1{
+      align-items: center;
+      justify-content: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width:50%;
+  }
+  
+  
+  figcaption {
+    position: absolute;
+    bottom: 2rem;
+    margin: 2 rem;
+   
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: auto;
+      
+      align-items: center;
+      justify-content: center;
+      display: block;
+     
+      
+      width:100%;
+    
+      
+  
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+    figcaption {
+        position: inherit;
+        bottom: inherit;
+        margin-left: inherit;
+        margin-right: inherit;
+        margin: .25rem 0px;
+        font-size: inherit;
+       
+        
+        text-align: inherit;
+
+    }
+  }
+  .b1{
+    background-color:pink;
+    color: green;
+  }
+  button:hover{
+    background-color:orange;
+    color:blue
+  }
+.con{
+  text-align: center;
+  color: darkviolet;
+}
